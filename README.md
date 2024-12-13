@@ -50,6 +50,8 @@
 
 ## Project Structure
 
+```mermaid
+
 flowchart TB
     
     config("<u>Config</u>"
@@ -116,7 +118,8 @@ flowchart TB
     src --> styles
     src --> types
     src --> utils
-   
+
+```
 
 --- 
 
