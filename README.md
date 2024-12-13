@@ -136,7 +136,7 @@ flowchart TB
 ## Configuration
   
 > [!CAUTION]  
-> Failing to create an .env-file in the **ROOT OF THE BACKEND FOLDER** and using these keys will cause app to not work as intended.
+> Failing to create an .env-file in the **<u>ROOT OF THE BACKEND FOLDER</u>** and using these keys will cause app to not work as intended.
 
 > [!IMPORTANT]  
 > **If encountering issues with server connection, install plugins to allow CORS**
