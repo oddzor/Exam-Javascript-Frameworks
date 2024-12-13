@@ -1,4 +1,4 @@
-# Project: CV-Portal
+# Project: CV-Portal.io
 
 ## Table of Contents
 1. [Introduction](#introduction)
