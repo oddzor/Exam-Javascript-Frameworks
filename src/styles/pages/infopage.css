@@ -1,0 +1,9 @@
+.infopage-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 9rem;
+  margin-inline: 25rem;
+  background-image: linear-gradient(to right, #130024, #1f005e);
+  border-radius: 3% 97% 9% 91% / 100% 5% 100% 5%;
+}

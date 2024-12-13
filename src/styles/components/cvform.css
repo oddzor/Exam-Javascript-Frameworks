@@ -1,0 +1,145 @@
+.cvform-page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  box-sizing: border-box;
+  min-height: 80vh;
+}
+
+.cvform-container {
+  background: #432f7f3b;
+  border-radius: 7% 93% 6% 94% / 94% 3% 97% 6%;
+  background-image: linear-gradient(to right, #130024, #310092);
+  padding: 2rem;
+  width: 60%;
+  max-width: 800px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.cvform-container h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--color-text);
+}
+
+.cvform-container h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: var(--color-text);
+  text-decoration: underline;
+}
+
+.cvform-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.cvform-container form input[type="text"],
+.cvform-container form input[type="email"],
+.cvform-container form input[type="password"],
+.cvform-container form textarea {
+  width: 80%;
+  padding: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+  box-sizing: border-box;
+  font: inherit;
+  margin: 0 auto;
+}
+
+.cvform-container form textarea {
+  height: 3rem;
+  resize: vertical;
+}
+
+.cvform-container form button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font: inherit;
+  cursor: pointer;
+  background: var(--color-primary);
+  color: var(--color-text);
+  transition: background 0.3s ease;
+  text-align: center;
+  width: auto;
+}
+
+.cvform-container form button:hover {
+  background: var(--color-secondary);
+}
+
+.cvform-container form > h3 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: var(--color-text);
+  text-decoration: underline;
+}
+
+.cvform-container form div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  align-items: center;
+}
+
+.cvform-container form button[type="button"] {
+  width: auto;
+  margin-top: 0.5rem;
+}
+
+::placeholder {
+  color: black;
+  opacity: 0.7;
+}
+
+.cvform-image-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.cvform-image-label {
+  font-weight: bold;
+  color: var(--color-text);
+  text-decoration: underline;
+  margin-bottom: 0.25rem;
+}
+
+.cvform-image-input {
+  width: 50%;
+  border: none;
+  border-radius: 4px;
+  background: rgb(255, 255, 255);
+  color: black;
+  padding: 0.5rem;
+  cursor: pointer;
+  font: inherit;
+}
+
+.cvform-image-input:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.cvform-image-preview {
+  max-width: 50%;
+  border-radius: 4px;
+  border: 1px solid rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.25rem;
+}

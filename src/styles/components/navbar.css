@@ -1,0 +1,128 @@
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-image: linear-gradient(to left, #1f005e00, #130024);
+  border-radius: 0% 100% 20% 80% / 100% 13% 87% 0%;
+  border: none;
+}
+
+.navbar::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 45%;
+  height: 1px;
+  background: linear-gradient(
+    to bottom right,
+    #b827fc 0%,
+    #2c90fc 25%,
+    #fd33e2 50%,
+    #fec837 75%,
+    #fd1892 100%
+  );
+  box-shadow:
+    0 0 15px rgba(255, 16, 211, 0.8),
+    0 0 30px rgba(255, 16, 211, 0.6),
+    0 0 45px rgba(255, 16, 211, 0.4);
+}
+
+.navbar-brand {
+  letter-spacing: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-logo {
+  width: 7rem;
+  height: auto;
+  display: block;
+}
+
+.navbar-cv {
+  letter-spacing: 0;
+  margin-right: 1.5rem;
+}
+
+.navbar-brand h1 {
+  display: flex;
+  color: var(--color-text);
+  font-family: "Exo 2", sans-serif;
+  margin: 0;
+  font-size: 4rem;
+}
+
+.sign {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign span {
+  font-size: 4rem;
+  text-align: center;
+  line-height: 1;
+  color: #c6e2ff;
+  animation: neon 0.25s ease-in-out infinite alternate;
+}
+
+@keyframes neon {
+  from {
+    text-shadow:
+      0 0 6px rgba(202, 228, 225, 0.92),
+      0 0 30px rgba(202, 228, 225, 0.34),
+      0 0 12px rgba(30, 132, 242, 0.52),
+      0 0 21px rgba(30, 132, 242, 0.92),
+      0 0 34px rgba(30, 132, 242, 0.78),
+      0 0 54px rgba(30, 132, 242, 0.92);
+  }
+  to {
+    text-shadow:
+      0 0 6px rgba(202, 228, 225, 0.98),
+      0 0 30px rgba(202, 228, 225, 0.42),
+      0 0 12px rgba(30, 132, 242, 0.58),
+      0 0 22px rgba(30, 132, 242, 0.84),
+      0 0 38px rgba(30, 132, 242, 0.88),
+      0 0 60px rgba(30, 132, 242, 1);
+  }
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-actions a,
+.navbar-actions button {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin-inline: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: var(--color-primary);
+  color: var(--color-text);
+  transition: background 0.3s ease;
+  font: inherit;
+}
+
+.navbar-actions a:hover,
+.navbar-actions button:hover {
+  background: var(--color-secondary);
+}
+
+.account-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}

@@ -1,0 +1,32 @@
+.form-wrapper {
+  background-image: linear-gradient(to right, #130024, #1f005e);
+  border-radius: 3% 97% 9% 91% / 100% 5% 100% 5%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem;
+  margin: auto;
+  margin-top: 3rem;
+  width: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form button {
+  width: 100%;
+  margin: 1rem;
+  margin-bottom: 3rem;
+}
+
+.form-info {
+  color: gray;
+}
+
+.infopage-wrapper {
+  margin-top: 10rem;
+}

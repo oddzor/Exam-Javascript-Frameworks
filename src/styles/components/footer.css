@@ -1,0 +1,39 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-inline: 2rem;
+}
+
+footer p {
+  color: rgba(240, 248, 255, 0.329);
+}
+
+.footer-icon {
+  height: 2rem;
+  width: auto;
+  transition: background 0.3s ease;
+  color: var(--color-secondary);
+}
+
+.footer-icon:hover {
+  color: var(--color-primary);
+}
+
+footer span {
+  color: var(--color-secondary);
+}
+
+footer a {
+  text-decoration: none;
+}
+footer a:visited {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+footer a:hover {
+  cursor: pointer;
+  color: var(--color-primary);
+}

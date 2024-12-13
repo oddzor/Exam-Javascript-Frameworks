@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #432f7f;
+  --color-secondary: #6c59b8;
+  --color-background: #000000;
+  --color-text: #ffffff;
+}
+
+.exo-2-global-font {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 50;
+  font-style: normal;
+}

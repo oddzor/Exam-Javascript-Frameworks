@@ -1,0 +1,97 @@
+.waitlist-search-container {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.waitlist-search {
+  width: 50%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+.waitlist-list-container {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(98, 0, 255, 0.151);
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.waitlist-list {
+  list-style: none;
+  width: 35rem;
+  padding: 0;
+  margin: 0;
+}
+
+.waitlist-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.waitlist-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.waitlist-info-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  background: rgb(255, 255, 255);
+  color: black;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.waitlist-label {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 0.25rem;
+}
+
+.waitlist-value {
+  padding-block: 0.25rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.waitlist-actions {
+  justify-content: flex-start;
+  width: auto;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.waitlist-actions button:nth-of-type(1) {
+  background: rgb(10, 88, 0);
+  color: white;
+}
+
+.waitlist-actions button:nth-of-type(1):hover {
+  background: limegreen;
+  color: black;
+}
+
+.waitlist-actions button:nth-of-type(2) {
+  background: rgb(104, 0, 0);
+  color: white;
+}
+
+.waitlist-actions button:nth-of-type(2):hover {
+  background: red;
+  color: black;
+}

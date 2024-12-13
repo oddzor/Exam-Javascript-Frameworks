@@ -1,0 +1,40 @@
+.landing-hero-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 5rem;
+  background-image: linear-gradient(to right, #130024, #1f005e);
+  border-radius: 3% 97% 9% 91% / 100% 5% 100% 5%;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.hero-btn {
+  font: inherit;
+  border: none;
+  cursor: pointer;
+  background: var(--color-primary);
+  color: var(--color-text);
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-align: center;
+  transition: background 0.3s ease;
+  display: inline-block;
+  width: 70%;
+}
+
+.heroImage {
+  border-radius: 2rem;
+  height: auto;
+  width: 25rem;
+  margin: 2rem;
+  border-radius: 4% 96% 3% 97% / 94% 6% 94% 6%;
+  box-shadow:
+    rgba(41, 116, 255, 0.25) 0px 50px 100px -20px,
+    rgba(255, 0, 0, 0.3) 0px 30px 60px -30px;
+}

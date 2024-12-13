@@ -1,0 +1,27 @@
+{
+  "cSpell.words": [
+    "adminpage",
+    "Capa",
+    "Cpath",
+    "Csvg",
+    "cvform",
+    "cvpage",
+    "cvportal",
+    "cvpreview",
+    "datauristring",
+    "icondata",
+    "infopage",
+    "jspdf",
+    "userlist",
+    "waitlist"
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": false
+  }
+}
